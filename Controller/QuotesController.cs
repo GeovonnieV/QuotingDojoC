@@ -18,20 +18,20 @@ namespace QuotingDojoC.Controllers
         public IActionResult QuotesGet()
         {
             // grabs everything we got from the quoting_dojo_base 
-            List<Dictionary<string, object>> AllQuotes = DbConnector.Query("SELECT * FROM quoting_dojo_base");
+            List<Dictionary<string, object>> AllQuotes = DbConnector.Query("SELECT * FROM users");
             // puts it in viewbag
             ViewBag.Quotes = AllQuotes;
-            return View("Results");
+            return View();
         }
 
         [HttpPost("/quotes")]
         public IActionResult QuotesPost(Quote newQuote)
         {
             // Post the data in newQuote to the DB
-            string query = $"INSERT INTO quoting_dojo_base (Name, UserQuote) VALUES ('{newQuote.Name}', '{newQuote.UserQuote}')";
+            string query = $"INSERT INTO users (Name, UserQuote) VALUES ('{newQuote.Name}', '{newQuote.UserQuote}')";
             DbConnector.Execute(query);
             // return the /quotes page
-            return View("/quotes");
+            return RedirectToAction("QuotesGet");
         }
 
     }

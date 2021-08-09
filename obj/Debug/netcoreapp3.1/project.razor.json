@@ -14402,8 +14402,8 @@
   "RootNamespace": "QuotingDojoC",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Geo\\code\\wos\\cSharp\\QuotingDojoC\\Views\\Quotes\\Results.cshtml",
-      "TargetPath": "Views\\Quotes\\Results.cshtml",
+      "FilePath": "c:\\Users\\Geo\\code\\wos\\cSharp\\QuotingDojoC\\Views\\Quotes\\QuotesGet.cshtml",
+      "TargetPath": "Views\\Quotes\\QuotesGet.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -35,4 +35,4 @@ C:\Users\Geo\code\wos\cSharp\QuotingDojoC\bin\Debug\netcoreapp3.1\MySql.Data.dll
 C:\Users\Geo\code\wos\cSharp\QuotingDojoC\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Geo\code\wos\cSharp\QuotingDojoC\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Geo\code\wos\cSharp\QuotingDojoC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Geo\code\wos\cSharp\QuotingDojoC\obj\Debug\netcoreapp3.1\Razor\Views\Quotes\Results.cshtml.g.cs
+C:\Users\Geo\code\wos\cSharp\QuotingDojoC\obj\Debug\netcoreapp3.1\Razor\Views\Quotes\QuotesGet.cshtml.g.cs
